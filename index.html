@@ -2,154 +2,205 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>quaint-e-commerce</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">QUAINT E-COMMERCE</h2>
-            </div>
-            <div class="menu">
-                <nav>
-                    <ul id="MenuItems">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">PRODUCTS</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                        <li><a href="register.html">ACCOUNT</a></li>
-                    </ul>
-                </nav>
+<div class="main">
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">QUAINT E-COMMERCE</h2>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="register.html">ACCOUNT</a></li>
+                </ul>
+            </nav>
 
-                <img src="menu-icon.jpg" class="menu-icon" onclick="menutoggle()">
-            </div>
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="search here">
-                <a href="#"><button class="btn">Search</button></a>
-            </div>
+            <img class="menu-icon" onclick="menutoggle()" src="img/menu-icon.jpg">
         </div>
-        <div class="content">
-            <h1>Life is Amazing with<br><span> Quaint E-commerce<br> Products</span><br> Change your lifestyle now <br>With our amazing products</h1>
-            <p class="par">This is the platform where as <br> seller you can sell your products widely<br>to different customers<br></p>
-            <button class="cont"><a href="register.html">JOIN US &#8594;</a></button>
+        <div class="search">
+            <input class="srch" name="" placeholder="search here" type="search">
+            <a href="#">
+                <button class="btn">Search</button>
+            </a>
         </div>
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
-    <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <a href="#"><img src="dior1.jfif" height="300px" width="200px"></a>
-                </div>
-                <div class="col-3">
-                    <a href="#"><img src="dior2.jpg" height="300px" width="200px"></a>
-                </div>
-                <div class="col-3">
-                    <a href="#"><img src="essentials1.jpg" height="300px" width="200px"></a>
-                </div>
-            </div>
-        </div>
+    <div class="content">
+        <h1>Life is Amazing with<br><span> Quaint E-commerce<br> Products</span><br> Change your lifestyle now <br>With
+            our amazing products</h1>
+        <p class="par">This is the platform where as <br> seller you can sell your products widely<br>to different
+            customers<br></p>
+        <button class="cont"><a href="register.html">JOIN US &#8594;</a></button>
     </div>
+</div>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<div class="categories">
     <div class="small-container">
-        <h2 class="tittle">Featured Products</h2>
         <div class="row">
-            <div class="col-4">
-                <a href="#"><img src="sneaker1.jpg" height="300px" width="200px"></a>
-                <h4>Sneakers-unisex-red</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Price:$15.00</p>
+            <div class="col-3">
+                <a href="#"><img height="300px" src="img/dior1.jfif" width="200px"></a>
             </div>
-            <div class="col-4">
-                <a href="#"><img src="essentials1.jpg" height="300px" width="200px"></a>
-                <h4>New-essential-hood</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>Price:$30.00</p>
+            <div class="col-3">
+                <a href="#"><img height="300px" src="img/dior2.jpg" width="200px"></a>
             </div>
-            <div class="col-4">
-                <a href="#"><img src="sneaker2.jpg" height="300px" width="200px"></a>
-                <h4>Sneakers-unisex-new</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Price:$25.00</p>
+            <div class="col-3">
+                <a href="#"><img height="300px" src="img/essentials1.jpg" width="200px"></a>
             </div>
         </div>
-        <h2 class="tittle">Latest Products</h2>
+    </div>
+</div>
+<div class="small-container">
+    <h2 class="tittle">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="#"><img height="300px" src="img/sneaker1.jpg" width="200px"></a>
+            <h4>Sneakers-unisex-red</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Price:$15.00</p>
+        </div>
+        <div class="col-4">
+            <a href="#"><img height="300px" src="img/essentials1.jpg" width="200px"></a>
+            <h4>New-essential-hood</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>Price:$30.00</p>
+        </div>
+        <div class="col-4">
+            <a href="#"><img height="300px" src="img/sneaker2.jpg" width="200px"></a>
+            <h4>Sneakers-unisex-new</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Price:$25.00</p>
+        </div>
+    </div>
+    <h2 class="tittle">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="#"><img height="300px" src="img/sneaker1.jpg" width="200px"></a>
+            <h4>Sneakers-unisex-red</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Price:$15.00</p>
+        </div>
+        <div class="col-4">
+            <a href="#"><img height="300px" src="img/essentials1.jpg" width="200px"></a>
+            <h4>New-essential-hood</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>Price:$30.00</p>
+        </div>
+        <div class="col-4">
+            <a href="#"><img height="300px" src="img/watch.jpg" width="200px"></a>
+            <h4>Sneakers-unisex-new</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Price:$25.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="#"><img height="300px" src="img/ps5.jpg" width="200px"></a>
+            <h4>PS5 Sony Pad</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Price:$15.00</p>
+        </div>
+        <div class="col-4">
+            <a href="#"><img height="300px" src="img/watch1.jpg" width="200px"></a>
+            <h4>New-Smart-Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>Price:$30.00</p>
+        </div>
+        <div class="col-4">
+            <a href="#"><img height="300px" src="img/console.jpg" width="200px"></a>
+            <h4>Standard PS5 Cosole</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>Price:$1300.00</p>
+        </div>
+    </div>
+</div>
+<div class="offer">
+    <div class="small-container">
         <div class="row">
-            <div class="col-4">
-                <a href="#"><img src="sneaker1.jpg" height="300px" width="200px"></a>
-                <h4>Sneakers-unisex-red</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Price:$15.00</p>
+            <div class="col-2">
+                <h2 class="tittle">Offer</h2>
+                <a href="#"><img class="offer-img" height="300px" src="img/watch.jpg" width="250px"></a>
             </div>
-            <div class="col-4">
-                <a href="#"><img src="essentials1.jpg" height="300px" width="200px"></a>
-                <h4>New-essential-hood</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <p>Price:$30.00</p>
-            </div>
-            <div class="col-4">
-                <a href="#"><img src="watch.jpg" height="300px" width="200px"></a>
-                <h4>Sneakers-unisex-new</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Price:$25.00</p>
+            <div class="col-2">
+                <p>Exclusively Available</p>
+                <h1>Smart watch</h1>
+                <small>The smartwatch can be connected to a phone to receive calls when away from the phone</small><br>
+                <a class="btn" href="">Buy Now &#8594;</a>
             </div>
         </div>
+    </div>
+</div>
+<div class="testimonial">
+    <div class="small-container">
         <div class="row">
-            <div class="col-4">
-                <a href="#"><img src="ps5.jpg" height="300px" width="200px"></a>
-                <h4>PS5 Sony Pad</h4>
-                <div class="rating">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                </div>
-                <p>Price:$15.00</p>
-            </div>
-            <div class="col-4">
-                <a href="#"><img src="watch1.jpg" height="300px" width="200px"></a>
-                <h4>New-Smart-Watch</h4>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Asperiores atque natus cum expedita
+                    incidunt consequuntur<br> saepe necessitatibus, tempore quod dolore consequatur<br> doloremque
+                    laboriosam ullam! Rerum nemo repellat<br> ullam voluptate mollitia.</p>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -157,196 +208,158 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star-half-o"></i>
                 </div>
-                <p>Price:$30.00</p>
+                <img src="img/proifle1.jpg">
+                <h3>Victor Quaint</h3>
             </div>
-            <div class="col-4">
-                <a href="#"><img src="console.jpg" height="300px" width="200px"></a>
-                <h4>Standard PS5 Cosole</h4>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Asperiores atque natus cum expedita
+                    incidunt consequuntur<br> saepe necessitatibus, tempore quod dolore consequatur<br> doloremque
+                    laboriosam ullam! Rerum nemo repellat<br> ullam voluptate mollitia.</p>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
                     <i class="fa fa-star-half-o"></i>
-                    <i class="fa fa-star-o"></i>
                 </div>
-                <p>Price:$1300.00</p>
+                <img src="img/profile2.jpg">
+                <h3>Plug 254</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Asperiores atque natus cum expedita
+                    incidunt consequuntur<br> saepe necessitatibus, tempore quod dolore consequatur<br> doloremque
+                    laboriosam ullam! Rerum nemo repellat<br> ullam voluptate mollitia.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <img src="img/proifle1.jpg">
+                <h3>Victor Kirui</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Asperiores atque natus cum expedita
+                    incidunt consequuntur<br> saepe necessitatibus, tempore quod dolore consequatur<br> doloremque
+                    laboriosam ullam! Rerum nemo repellat<br> ullam voluptate mollitia.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <img src="img/profile4.jpg">
+                <h3>Mello</h3>
             </div>
         </div>
     </div>
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <h2 class="tittle">Offer</h2>
-                    <a href="#"><img src="watch.jpg" class="offer-img" height="300px" width="250px"></a>
-                </div>
-                <div class="col-2">
-                    <p>Exclusively Available</p>
-                    <h1>Smart watch</h1>
-                    <small>The smart watch can be connected to a phone to receive calls when away from the phone</small><br>
-                    <a href="" class="btn">Buy Now &#8594;</a>
-                </div>
+</div>
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="img/paypal.jpg">
+            </div>
+            <div class="col-5">
+                <img src="img/samsung-logo.jpg">
+            </div>
+            <div class="col-5">
+                <img src="img/apple-logo.jpg">
+            </div>
+            <div class="col-5">
+                <img src="img/nike-logo.jpg">
+            </div>
+            <div class="col-5">
+                <img src="img/google-logo.jpg">
+            </div>
+            <div class="col-5">
+                <img src="img/gucci-logo.jpg">
+            </div>
+            <div class="col-5">
+                <img src="img/visa-logo.jpg">
+            </div>
+            <div class="col-5">
+                <img src="img/coca-cola-logo.jpg">
+            </div>
+            <div class="col-5">
+                <img src="img/louis-vuitton-logo.jpg">
             </div>
         </div>
     </div>
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Asperiores atque natus cum expedita incidunt consequuntur<br> saepe necessitatibus, tempore quod dolore consequatur<br> doloremque laboriosam ullam! Rerum nemo repellat<br>                        ullam voluptate mollitia.</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="proifle1.jpg">
-                    <h3>Victor Quaint</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Asperiores atque natus cum expedita incidunt consequuntur<br> saepe necessitatibus, tempore quod dolore consequatur<br> doloremque laboriosam ullam! Rerum nemo repellat<br>                        ullam voluptate mollitia.</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="profile2.jpg">
-                    <h3>Plug 254</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Asperiores atque natus cum expedita incidunt consequuntur<br> saepe necessitatibus, tempore quod dolore consequatur<br> doloremque laboriosam ullam! Rerum nemo repellat<br>                        ullam voluptate mollitia.</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="proifle1.jpg">
-                    <h3>Victor Kirui</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Asperiores atque natus cum expedita incidunt consequuntur<br> saepe necessitatibus, tempore quod dolore consequatur<br> doloremque laboriosam ullam! Rerum nemo repellat<br>                        ullam voluptate mollitia.</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <img src="profile4.jpg">
-                    <h3>Mello</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="paypal.jpg">
-                </div>
-                <div class="col-5">
-                    <img src="samsung-logo.jpg">
-                </div>
-                <div class="col-5">
-                    <img src="apple-logo.jpg">
-                </div>
-                <div class="col-5">
-                    <img src="nike-logo.jpg">
-                </div>
-                <div class="col-5">
-                    <img src="google-logo.jpg">
-                </div>
-                <div class="col-5">
-                    <img src="gucci-logo.jpg">
-                </div>
-                <div class="col-5">
-                    <img src="visa-logo.jpg">
-                </div>
-                <div class="col-5">
-                    <img src="coca-cola-logo.jpg">
-                </div>
-                <div class="col-5">
-                    <img src="louis-vuitton-logo.jpg">
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Services</a</li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Affiliate Program</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Get Help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Returns</a></li>
-                        <li><a href="#">Order Status</a></li>
-                        <li><a href="#">Payment Options</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Online Shop</h4>
-                    <ul>
-                        <li><a href="#">Electronics</a></li>
-                        <li><a href="#">Fashion</a></li>
-                        <li><a href="#">Cooking Stuff</a></li>
-                        <li><a href="#">Furniture</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Follow Us On</h4>
-                    <div class="social-links">
-                        <a href="#">
-                            <ion-icon name="logo-facebook"></ion-icon>
-                        </a>
-                        <a href="#">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
-                        <a href="#">
-                            <ion-icon name="logo-instagram"></ion-icon>
-                        </a>
-                        <a href="#">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a>
-                    </div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a</li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Affiliate Program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get Help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Online Shop</h4>
+                <ul>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Cooking Stuff</a></li>
+                    <li><a href="#">Furniture</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us On</h4>
+                <div class="social-links">
+                    <a href="#">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="#">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
                 </div>
             </div>
-            <hr>
-            <p class="copyright">Copyright@Quaint2022-e-commerce</p>
         </div>
-    </footer>
-    <script>
-        var Menu Items = document.getElementById("MenuItems");
+        <hr>
+        <p class="copyright">Copyright@Quaint2022-e-commerce</p>
+    </div>
+</footer>
+<script>
+    var Menu
+    Items = document.getElementById("MenuItems");
 
-        MenuItems.style.maxHeight = "0px";
+    MenuItems.style.maxHeight = "0px";
 
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "200px";
-            } else {
-                MenuItems.style.maxHeight = "0px";
-            }
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
         }
-    </script>
+    }
+</script>
 </body>
 
 </html>

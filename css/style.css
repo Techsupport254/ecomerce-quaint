@@ -5,7 +5,7 @@
             
             .main {
                 height: 100vh;
-                background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(logo2.jpg);
+                background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/logo2.jpg);
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -162,7 +162,7 @@
             .form {
                 width: 250px;
                 height: 380px;
-                background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%), url(logo2.jpg);
+                background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%), url(../img/logo2.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: absolute;
@@ -352,7 +352,7 @@
             
             .col-2 .offer-img {
                 padding: 50px;
-                text-align: top right;
+                text-align: center;
             }
             
             small {
@@ -368,8 +368,7 @@
                 text-align: center;
                 font-size: 10px;
                 display: inline-block;
-                padding: auto;
-                box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
+                box-shadow: 0 0 20px rgba(0, 0, 0, 1);
                 cursor: pointer;
                 transition: transfor 0.5s;
             }
@@ -481,7 +480,6 @@
             .footer-col ul li a {
                 font-size: 16px;
                 text-transform: capitalize;
-                color: #ffffff;
                 text-decoration: none;
                 font-weight: 300;
                 color: #bbbbbb;
@@ -504,7 +502,7 @@
                 text-align: center;
                 line-height: 40px;
                 border-radius: 50%;
-                text-color: white;
+                color: white;
                 transition: all 0.3s ease;
             }
             
