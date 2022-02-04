@@ -1,4 +1,4 @@
-                * {
+                    * {
                     margin: 0;
                     padding: 0;
                 }
@@ -527,14 +527,17 @@
                 
                 @media only screen and (max-width:500px) {
                     .menu ul {
-                        background: grey;
+                        background: black;
+                        text-align: left;
                         display: inline-block;
                         position: absolute;
                         top: 70px;
                         left: 0;
-                        width: 100%;
+                        width: 100px;
                         overflow: hidden;
                         transition: max-height 0.5;
+                        margin-left: 400px;
+                        margin-top: 1px;
                     }
                     .menu-icon {
                         display: block;
@@ -544,6 +547,9 @@
                     }
                     .menu ul li {
                         font-size: 10px;
+                        margin-left: 4px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
                     }
                     .menu ul li a {
                         color: #fff;
@@ -595,77 +601,3 @@
                         box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.829);
                         transition: 300ms ease-in;
                     }
-                }
-                
-                @media only screen and (max-width:800px) {
-                    .menu ul {
-                        background: black;
-                        display: inline-block;
-                        position: absolute;
-                        top: 70px;
-                        left: 0;
-                        width: 100%;
-                        float: right;
-                        overflow: hidden;
-                        transition: max-height 0.5;
-                    }
-                    .menu-icon {
-                        display: grid;
-                        margin-left: 450px;
-                        margin-top: 20px;
-                        cursor: pointer;
-                    }
-                    .menu ul li {
-                        font-size: 10px;
-                    }
-                    .menu ul li a {
-                        color: #fff;
-                        font-size: 10px;
-                        padding-top: 1px;
-                        transition: 0.3s ease-in;
-                    }
-                    .menu ul li a:hover {
-                        color: orange;
-                    }
-                    .content .par {
-                        padding-left: 20px;
-                        padding-bottom: 25px;
-                        font-family: Arial;
-                        letter-spacing: 1px;
-                        line-height: 30px;
-                    }
-                    .content h1 {
-                        font-family: 'Times New Roman';
-                        font-size: 40px;
-                        padding-left: 20px;
-                        margin-top: 75px;
-                        letter-spacing: 1px;
-                    }
-                    .content span {
-                        color: orange;
-                        font-size: 60px;
-                    }
-                    .logo {
-                        color: orange;
-                        font-size: 25px;
-                        font-family: Arial;
-                        padding-left: 5px;
-                        float: left;
-                        padding-top: 10px;
-                    }
-                    .col-5 img {
-                        width: 30px;
-                        height: 30px;
-                        text-align: center;
-                        cursor: pointer;
-                        filter: brightness(100%);
-                        display: inline-block;
-                        box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.637);
-                        transition: 0.3s ease;
-                    }
-                    .col-5 img:hover {
-                        transform: scale(1.1);
-                        box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.829);
-                        transition: 300ms ease-in;
-                    }
-                }
