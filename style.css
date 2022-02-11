@@ -1,607 +1,607 @@
-                                                                                                                                                    * {
-                                                                                                                                                    margin: 0;
-                                                                                                                                                    padding: 0;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .main {
-                                                                                                                                                    height: 100vh;
-                                                                                                                                                    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(logo2.jpg);
-                                                                                                                                                    background-position: center;
-                                                                                                                                                    background-attachment: fixed;
-                                                                                                                                                    background-repeat: no-repeat;
-                                                                                                                                                    background-size: cover;
-                                                                                                                                                    width: 100%;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .navbar {
-                                                                                                                                                    width: 1200px;
-                                                                                                                                                    height: 75px;
-                                                                                                                                                    margin: auto;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .icon {
-                                                                                                                                                    width: 200px;
-                                                                                                                                                    height: 70px;
-                                                                                                                                                    float: left;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .logo {
-                                                                                                                                                    color: orange;
-                                                                                                                                                    font-size: 35px;
-                                                                                                                                                    font-family: Arial;
-                                                                                                                                                    padding-left: 5px;
-                                                                                                                                                    float: left;
-                                                                                                                                                    padding-top: 10px;
-                                                                                                                                                    margin-top: 10px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .menu {
-                                                                                                                                                    width: 400px;
-                                                                                                                                                    height: 70px;
-                                                                                                                                                    float: left;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .menu ul {
-                                                                                                                                                    float: left;
-                                                                                                                                                    display: flex;
-                                                                                                                                                    justify-content: center;
-                                                                                                                                                    align-content: center;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .menu ul li {
-                                                                                                                                                    list-style: none;
-                                                                                                                                                    margin-left: 65px;
-                                                                                                                                                    margin-top: 27px;
-                                                                                                                                                    font-size: 15px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .menu ul li a {
-                                                                                                                                                    text-decoration: none;
-                                                                                                                                                    color: white;
-                                                                                                                                                    font-family: Arial;
-                                                                                                                                                    font-weight: bold;
-                                                                                                                                                    transition: 0.4s ease-in-out;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                ul li a:hover {
-                                                                                                                                                    color: orange;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .search {
-                                                                                                                                                    width: 330px;
-                                                                                                                                                    float: left;
-                                                                                                                                                    margin-left: 270px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .srch {
-                                                                                                                                                    font-family: 'Times New Roman';
-                                                                                                                                                    width: 200px;
-                                                                                                                                                    height: 40px;
-                                                                                                                                                    background: transparent;
-                                                                                                                                                    border: 1px solid orange;
-                                                                                                                                                    margin-top: 13px;
-                                                                                                                                                    color: #fff;
-                                                                                                                                                    border-right: none;
-                                                                                                                                                    font-size: 16px;
-                                                                                                                                                    float: left;
-                                                                                                                                                    padding: 10px;
-                                                                                                                                                    border-bottom-left-radius: 5px;
-                                                                                                                                                    border-top-left-radius: 5px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .btn {
-                                                                                                                                                    width: 100px;
-                                                                                                                                                    height: 40px;
-                                                                                                                                                    background: orange;
-                                                                                                                                                    border: 2px solid orange;
-                                                                                                                                                    margin-top: 13px;
-                                                                                                                                                    color: white;
-                                                                                                                                                    font-size: 15px;
-                                                                                                                                                    border-bottom-right-radius: 5px;
-                                                                                                                                                    border-bottom-right-radius: 5px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .btn:focus {
-                                                                                                                                                    outline: none;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .srch:focus {
-                                                                                                                                                    outline: none;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .content {
-                                                                                                                                                    width: 1200px;
-                                                                                                                                                    height: auto;
-                                                                                                                                                    margin: auto;
-                                                                                                                                                    color: white;
-                                                                                                                                                    position: relative;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .content .par {
-                                                                                                                                                    padding-left: 20px;
-                                                                                                                                                    padding-bottom: 25px;
-                                                                                                                                                    font-family: Arial;
-                                                                                                                                                    letter-spacing: 1.2px;
-                                                                                                                                                    line-height: 30px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .content h1 {
-                                                                                                                                                    font-family: 'Times New Roman';
-                                                                                                                                                    font-size: 50px;
-                                                                                                                                                    padding-left: 20px;
-                                                                                                                                                    margin-top: 75px;
-                                                                                                                                                    letter-spacing: 2px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .content .cont {
-                                                                                                                                                    width: 160px;
-                                                                                                                                                    height: 40px;
-                                                                                                                                                    background: orange;
-                                                                                                                                                    border: none;
-                                                                                                                                                    margin-bottom: 10px;
-                                                                                                                                                    margin-left: 20px;
-                                                                                                                                                    font-size: 18px;
-                                                                                                                                                    border-radius: 10px;
-                                                                                                                                                    cursor: pointer;
-                                                                                                                                                    transition: .4s ease;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .content .cont a {
-                                                                                                                                                    text-decoration: none;
-                                                                                                                                                    color: black;
-                                                                                                                                                    transition: .3s ease;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .cont:hover {
-                                                                                                                                                    background-color: white;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .content span {
-                                                                                                                                                    color: orange;
-                                                                                                                                                    font-size: 60px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .form {
-                                                                                                                                                    width: 250px;
-                                                                                                                                                    height: 380px;
-                                                                                                                                                    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%), url(logo2.jpg);
-                                                                                                                                                    background-repeat: no-repeat;
-                                                                                                                                                    background-size: cover;
-                                                                                                                                                    position: absolute;
-                                                                                                                                                    top: -20px;
-                                                                                                                                                    left: 870px;
-                                                                                                                                                    border-radius: 10px;
-                                                                                                                                                    padding: 25px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .form h2 {
-                                                                                                                                                    width: 220px;
-                                                                                                                                                    font-family: sans-serif;
-                                                                                                                                                    text-align: center;
-                                                                                                                                                    color: orange;
-                                                                                                                                                    font-size: 22px;
-                                                                                                                                                    background-color: white;
-                                                                                                                                                    border-radius: 10px;
-                                                                                                                                                    margin: 2px;
-                                                                                                                                                    padding: 8px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .form input {
-                                                                                                                                                    width: 240px;
-                                                                                                                                                    height: 35px;
-                                                                                                                                                    background: transparent;
-                                                                                                                                                    border-bottom: 1px solid orange;
-                                                                                                                                                    border-top: none;
-                                                                                                                                                    border-right: none;
-                                                                                                                                                    border-left: none;
-                                                                                                                                                    color: white;
-                                                                                                                                                    font-size: 15px;
-                                                                                                                                                    letter-spacing: 1px;
-                                                                                                                                                    margin-top: 30px;
-                                                                                                                                                    font-family: sans-serif;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .form input:focus {
-                                                                                                                                                    outline: none;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                 ::placeholder {
-                                                                                                                                                    color: white;
-                                                                                                                                                    font-family: Arial;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .btnn {
-                                                                                                                                                    width: 240px;
-                                                                                                                                                    height: 40px;
-                                                                                                                                                    background: orange;
-                                                                                                                                                    border: none;
-                                                                                                                                                    margin-top: 30px;
-                                                                                                                                                    font-size: 18px;
-                                                                                                                                                    border-radius: 10px;
-                                                                                                                                                    cursor: pointer;
-                                                                                                                                                    color: white;
-                                                                                                                                                    transition: 0.3s ease;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .btnn:hover {
-                                                                                                                                                    background: white;
-                                                                                                                                                    color: orange;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .btnn a {
-                                                                                                                                                    text text-decoration: none;
-                                                                                                                                                    color: black;
-                                                                                                                                                    font-weight: bold;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .form .link {
-                                                                                                                                                    font-family: Arial;
-                                                                                                                                                    font-size: 17px;
-                                                                                                                                                    padding-top: 20px;
-                                                                                                                                                    text-align: center;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .form .link a {
-                                                                                                                                                    text-decoration: none;
-                                                                                                                                                    color: orange;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .liw {
-                                                                                                                                                    padding-top: 15px;
-                                                                                                                                                    padding-bottom: 10px;
-                                                                                                                                                    text-align: center;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .icons a {
-                                                                                                                                                    text-decoration: none;
-                                                                                                                                                    color: white;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .icons ion-icon {
-                                                                                                                                                    color: white;
-                                                                                                                                                    font-size: 30px;
-                                                                                                                                                    padding-left: 14px;
-                                                                                                                                                    padding-top: 5px;
-                                                                                                                                                    text-align: center;
-                                                                                                                                                    transition: 0.3s ease;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .icons ion-icon:hover {
-                                                                                                                                                    color: orange;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .categories {
-                                                                                                                                                    margin: 70px 0;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-3 {
-                                                                                                                                                    flex-basis: 30%;
-                                                                                                                                                    min-width: 250px;
-                                                                                                                                                    margin-bottom: 30px;
-                                                                                                                                                    display: inline-block;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-3 img {
-                                                                                                                                                    width: 100%;
-                                                                                                                                                    align-items: center;
-                                                                                                                                                    padding-left: 25px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .small-container {
-                                                                                                                                                    max-width: 1080px;
-                                                                                                                                                    margin: auto;
-                                                                                                                                                    padding-left: 25px;
-                                                                                                                                                    padding-right: 25px;
-                                                                                                                                                    text-align: center;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-4 {
-                                                                                                                                                    flex-basis: 25px;
-                                                                                                                                                    padding: 10px;
-                                                                                                                                                    min-width: 200px;
-                                                                                                                                                    margin-bottom: 50px;
-                                                                                                                                                    display: inline-block;
-                                                                                                                                                    transform: transform 0.5s;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-4 img {
-                                                                                                                                                    width: 100%;
-                                                                                                                                                    display: inline-block;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .tittle {
-                                                                                                                                                    text-align: center;
-                                                                                                                                                    margin: 0 auto 80px;
-                                                                                                                                                    position: relative;
-                                                                                                                                                    line-height: 60px;
-                                                                                                                                                    color: black;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .tittle::after {
-                                                                                                                                                    content: '';
-                                                                                                                                                    background: orange;
-                                                                                                                                                    width: 80px;
-                                                                                                                                                    height: 5px;
-                                                                                                                                                    border-radius: 5px;
-                                                                                                                                                    position: absolute;
-                                                                                                                                                    bottom: 0;
-                                                                                                                                                    left: 50%;
-                                                                                                                                                    transform: translateX(-50%);
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                h4 {
-                                                                                                                                                    color: black;
-                                                                                                                                                    font-weight: normal;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-4 p {
-                                                                                                                                                    font-size: 14px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .rating .fa {
-                                                                                                                                                    color: orange;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-4:hover {
-                                                                                                                                                    transform: translateY(-5px);
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .offer {
-                                                                                                                                                    background: radial-gradient(#fff, #ffd6d6);
-                                                                                                                                                    margin-top: 80px;
-                                                                                                                                                    padding: 30px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-2 .offer-img {
-                                                                                                                                                    padding: 50px;
-                                                                                                                                                    text-align: top right;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                small {
-                                                                                                                                                    color: black;
-                                                                                                                                                    font-family: Arial, Helvetica, sans-serif;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .testimonial {
-                                                                                                                                                    padding-top: 100px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .testimonial .col-3 {
-                                                                                                                                                    text-align: center;
-                                                                                                                                                    font-size: 10px;
-                                                                                                                                                    display: inline-block;
-                                                                                                                                                    padding: auto;
-                                                                                                                                                    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
-                                                                                                                                                    cursor: pointer;
-                                                                                                                                                    transition: transfor 0.5s;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .testimonial .col-3 img {
-                                                                                                                                                    width: 50px;
-                                                                                                                                                    margin-top: 20px;
-                                                                                                                                                    border-radius: 50%;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .testimonial .col-3:hover {
-                                                                                                                                                    transform: translateY(-10px);
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .fa.fa-quote-left {
-                                                                                                                                                    font-size: 34px;
-                                                                                                                                                    color: orange;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-3:p {
-                                                                                                                                                    font-size: 12px;
-                                                                                                                                                    margin: 12px 0;
-                                                                                                                                                    color: black;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .testimonial .col-3 h3 {
-                                                                                                                                                    font-weight: 600;
-                                                                                                                                                    color: black;
-                                                                                                                                                    font-size: 16px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .brands {
-                                                                                                                                                    margin: 50px;
-                                                                                                                                                    display: inline-block;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-5 {
-                                                                                                                                                    width: 110px;
-                                                                                                                                                    display: inline-block;
-                                                                                                                                                    transition: 300ms;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-5 img {
-                                                                                                                                                    width: 50px;
-                                                                                                                                                    height: 50px;
-                                                                                                                                                    text-align: center;
-                                                                                                                                                    position: absolute\;
-                                                                                                                                                    cursor: pointer;
-                                                                                                                                                    filter: brightness(100%);
-                                                                                                                                                    display: inline-block;
-                                                                                                                                                    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.637);
-                                                                                                                                                    transition: 0.3s ease;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .col-5 img:hover {
-                                                                                                                                                    transform: scale(1.1);
-                                                                                                                                                    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.829);
-                                                                                                                                                    transition: 300ms ease-in;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer * {
-                                                                                                                                                    margin: 0;
-                                                                                                                                                    padding: 0;
-                                                                                                                                                    box-sizing: border-box;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer {
-                                                                                                                                                    background: black;
-                                                                                                                                                    padding: 70px 0;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer ul {
-                                                                                                                                                    list-style: none;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer .row {
-                                                                                                                                                    display: flex;
-                                                                                                                                                    flex-wrap: wrap;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer-col {
-                                                                                                                                                    width: 25%;
-                                                                                                                                                    padding: 0 15px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer-col h4 {
-                                                                                                                                                    font-size: 18px;
-                                                                                                                                                    color: white;
-                                                                                                                                                    text-transform: capitalize;
-                                                                                                                                                    margin-bottom: 30px;
-                                                                                                                                                    font-weight: 500;
-                                                                                                                                                    position: relative;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer-col h4::before {
-                                                                                                                                                    content: '';
-                                                                                                                                                    position: absolute;
-                                                                                                                                                    left: 0;
-                                                                                                                                                    bottom: -10px;
-                                                                                                                                                    background-color: orange;
-                                                                                                                                                    height: 2px;
-                                                                                                                                                    box-sizing: border-box;
-                                                                                                                                                    width: 50px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer-col ul li:not(:last-child) {
-                                                                                                                                                    margin-bottom: 10px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer-col ul li a {
-                                                                                                                                                    font-size: 16px;
-                                                                                                                                                    text-transform: capitalize;
-                                                                                                                                                    color: #ffffff;
-                                                                                                                                                    text-decoration: none;
-                                                                                                                                                    font-weight: 300;
-                                                                                                                                                    color: #bbbbbb;
-                                                                                                                                                    display: block;
-                                                                                                                                                    transition: all 0.3s ease;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer-col ul li a:hover {
-                                                                                                                                                    color: orange;
-                                                                                                                                                    padding-left: 8px;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer-col .social-links {
-                                                                                                                                                    display: inline-block;
-                                                                                                                                                    height: 80px;
-                                                                                                                                                    width: 80px;
-                                                                                                                                                    margin-right: 10px;
-                                                                                                                                                    margin-top: auto;
-                                                                                                                                                    margin-bottom: 10px;
-                                                                                                                                                    text-align: center;
-                                                                                                                                                    line-height: 40px;
-                                                                                                                                                    border-radius: 50%;
-                                                                                                                                                    color: white;
-                                                                                                                                                    transition: all 0.3s ease;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .footer-col .social-links a:hover {
-                                                                                                                                                    color: black;
-                                                                                                                                                    background: orange;
-                                                                                                                                                    cursor: pointer;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .copyright {
-                                                                                                                                                    text-align: center;
-                                                                                                                                                    color: white;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                .menu-icon {
-                                                                                                                                                    width: 28px;
-                                                                                                                                                    margin-left: 120px;
-                                                                                                                                                    display: none;
-                                                                                                                                                }
-                                                                                                                                                
-                                                                                                                                                @media only screen and (max-width:500px) {
-                                                                                                                                                    .menu ul {
-                                                                                                                                                        background: black;
-                                                                                                                                                        text-align: left;
-                                                                                                                                                        display: inline-block;
-                                                                                                                                                        position: absolute;
-                                                                                                                                                        top: 70px;
-                                                                                                                                                        left: 0;
-                                                                                                                                                        width: 100px;
-                                                                                                                                                        overflow: hidden;
-                                                                                                                                                        transition: max-height 0.5;
-                                                                                                                                                        margin-left: 400px;
-                                                                                                                                                        margin-top: 1px;
+                                                                                                                                                        * {
+                                                                                                                                                        margin: 0;
+                                                                                                                                                        padding: 0;
                                                                                                                                                     }
-                                                                                                                                                    .menu-icon {
-                                                                                                                                                        display: block;
-                                                                                                                                                        margin-left: 100px;
-                                                                                                                                                        margin-top: 20px;
-                                                                                                                                                        cursor: pointer;
+                                                                                                                                                    
+                                                                                                                                                    .main {
+                                                                                                                                                        height: 100vh;
+                                                                                                                                                        background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(logo2.jpg);
+                                                                                                                                                        background-position: center;
+                                                                                                                                                        background-attachment: fixed;
+                                                                                                                                                        background-repeat: no-repeat;
+                                                                                                                                                        background-size: cover;
+                                                                                                                                                        width: 100%;
                                                                                                                                                     }
-                                                                                                                                                    .menu ul li {
-                                                                                                                                                        font-size: 10px;
-                                                                                                                                                        margin-left: 4px;
-                                                                                                                                                        margin-top: 10px;
-                                                                                                                                                        margin-bottom: 10px;
+                                                                                                                                                    
+                                                                                                                                                    .navbar {
+                                                                                                                                                        width: 1200px;
+                                                                                                                                                        height: 75px;
+                                                                                                                                                        margin: auto;
                                                                                                                                                     }
-                                                                                                                                                    .menu ul li a {
-                                                                                                                                                        color: #fff;
-                                                                                                                                                        font-size: 10px;
-                                                                                                                                                        padding-top: 1px;
-                                                                                                                                                        transition: 0.3s ease-in;
+                                                                                                                                                    
+                                                                                                                                                    .icon {
+                                                                                                                                                        width: 200px;
+                                                                                                                                                        height: 70px;
+                                                                                                                                                        float: left;
                                                                                                                                                     }
-                                                                                                                                                    .menu ul li a:hover {
-                                                                                                                                                        color: orange;
-                                                                                                                                                    }
-                                                                                                                                                    .content .par {
-                                                                                                                                                        padding-left: 20px;
-                                                                                                                                                        padding-bottom: 25px;
-                                                                                                                                                        padding-top: 30px;
-                                                                                                                                                        font-family: Arial;
-                                                                                                                                                        letter-spacing: 1px;
-                                                                                                                                                        line-height: 30px;
-                                                                                                                                                    }
-                                                                                                                                                    .content h1 {
-                                                                                                                                                        font-family: 'Times New Roman';
-                                                                                                                                                        font-size: 20px;
-                                                                                                                                                        padding-left: 20px;
-                                                                                                                                                        margin-top: 75px;
-                                                                                                                                                        letter-spacing: 1px;
-                                                                                                                                                    }
-                                                                                                                                                    .content span {
-                                                                                                                                                        color: orange;
-                                                                                                                                                        font-size: 30px;
-                                                                                                                                                    }
+                                                                                                                                                    
                                                                                                                                                     .logo {
                                                                                                                                                         color: orange;
-                                                                                                                                                        font-size: 20px;
+                                                                                                                                                        font-size: 35px;
                                                                                                                                                         font-family: Arial;
                                                                                                                                                         padding-left: 5px;
                                                                                                                                                         float: left;
                                                                                                                                                         padding-top: 10px;
+                                                                                                                                                        margin-top: 10px;
                                                                                                                                                     }
-                                                                                                                                                    .col-5 img {
-                                                                                                                                                        width: 30px;
-                                                                                                                                                        height: 30px;
+                                                                                                                                                    
+                                                                                                                                                    .menu {
+                                                                                                                                                        width: 400px;
+                                                                                                                                                        height: 70px;
+                                                                                                                                                        float: left;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .menu ul {
+                                                                                                                                                        float: left;
+                                                                                                                                                        display: flex;
+                                                                                                                                                        justify-content: center;
+                                                                                                                                                        align-content: center;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .menu ul li {
+                                                                                                                                                        list-style: none;
+                                                                                                                                                        margin-left: 65px;
+                                                                                                                                                        margin-top: 27px;
+                                                                                                                                                        font-size: 15px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .menu ul li a {
+                                                                                                                                                        text-decoration: none;
+                                                                                                                                                        color: white;
+                                                                                                                                                        font-family: Arial;
+                                                                                                                                                        font-weight: bold;
+                                                                                                                                                        transition: 0.4s ease-in-out;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    ul li a:hover {
+                                                                                                                                                        color: orange;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .search {
+                                                                                                                                                        width: 330px;
+                                                                                                                                                        float: left;
+                                                                                                                                                        margin-left: 270px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .srch {
+                                                                                                                                                        font-family: 'Times New Roman';
+                                                                                                                                                        width: 200px;
+                                                                                                                                                        height: 40px;
+                                                                                                                                                        background: transparent;
+                                                                                                                                                        border: 1px solid orange;
+                                                                                                                                                        margin-top: 13px;
+                                                                                                                                                        color: #fff;
+                                                                                                                                                        border-right: none;
+                                                                                                                                                        font-size: 16px;
+                                                                                                                                                        float: left;
+                                                                                                                                                        padding: 10px;
+                                                                                                                                                        border-bottom-left-radius: 5px;
+                                                                                                                                                        border-top-left-radius: 5px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .btn {
+                                                                                                                                                        width: 100px;
+                                                                                                                                                        height: 40px;
+                                                                                                                                                        background: orange;
+                                                                                                                                                        border: 2px solid orange;
+                                                                                                                                                        margin-top: 13px;
+                                                                                                                                                        color: white;
+                                                                                                                                                        font-size: 15px;
+                                                                                                                                                        border-bottom-right-radius: 5px;
+                                                                                                                                                        border-bottom-right-radius: 5px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .btn:focus {
+                                                                                                                                                        outline: none;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .srch:focus {
+                                                                                                                                                        outline: none;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .content {
+                                                                                                                                                        width: 1200px;
+                                                                                                                                                        height: auto;
+                                                                                                                                                        margin: auto;
+                                                                                                                                                        color: white;
+                                                                                                                                                        position: relative;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .content .par {
+                                                                                                                                                        padding-left: 20px;
+                                                                                                                                                        padding-bottom: 25px;
+                                                                                                                                                        font-family: Arial;
+                                                                                                                                                        letter-spacing: 1.2px;
+                                                                                                                                                        line-height: 30px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .content h1 {
+                                                                                                                                                        font-family: 'Times New Roman';
+                                                                                                                                                        font-size: 50px;
+                                                                                                                                                        padding-left: 20px;
+                                                                                                                                                        margin-top: 75px;
+                                                                                                                                                        letter-spacing: 2px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .content .cont {
+                                                                                                                                                        width: 160px;
+                                                                                                                                                        height: 40px;
+                                                                                                                                                        background: orange;
+                                                                                                                                                        border: none;
+                                                                                                                                                        margin-bottom: 10px;
+                                                                                                                                                        margin-left: 20px;
+                                                                                                                                                        font-size: 18px;
+                                                                                                                                                        border-radius: 10px;
+                                                                                                                                                        cursor: pointer;
+                                                                                                                                                        transition: .4s ease;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .content .cont a {
+                                                                                                                                                        text-decoration: none;
+                                                                                                                                                        color: black;
+                                                                                                                                                        transition: .3s ease;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .cont:hover {
+                                                                                                                                                        background-color: white;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .content span {
+                                                                                                                                                        color: orange;
+                                                                                                                                                        font-size: 60px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .form {
+                                                                                                                                                        width: 250px;
+                                                                                                                                                        height: 380px;
+                                                                                                                                                        background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%), url(logo2.jpg);
+                                                                                                                                                        background-repeat: no-repeat;
+                                                                                                                                                        background-size: cover;
+                                                                                                                                                        position: absolute;
+                                                                                                                                                        top: -20px;
+                                                                                                                                                        left: 870px;
+                                                                                                                                                        border-radius: 10px;
+                                                                                                                                                        padding: 25px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .form h2 {
+                                                                                                                                                        width: 220px;
+                                                                                                                                                        font-family: sans-serif;
                                                                                                                                                         text-align: center;
+                                                                                                                                                        color: orange;
+                                                                                                                                                        font-size: 22px;
+                                                                                                                                                        background-color: white;
+                                                                                                                                                        border-radius: 10px;
+                                                                                                                                                        margin: 2px;
+                                                                                                                                                        padding: 8px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .form input {
+                                                                                                                                                        width: 240px;
+                                                                                                                                                        height: 35px;
+                                                                                                                                                        background: transparent;
+                                                                                                                                                        border-bottom: 1px solid orange;
+                                                                                                                                                        border-top: none;
+                                                                                                                                                        border-right: none;
+                                                                                                                                                        border-left: none;
+                                                                                                                                                        color: white;
+                                                                                                                                                        font-size: 15px;
+                                                                                                                                                        letter-spacing: 1px;
+                                                                                                                                                        margin-top: 30px;
+                                                                                                                                                        font-family: sans-serif;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .form input:focus {
+                                                                                                                                                        outline: none;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                     ::placeholder {
+                                                                                                                                                        color: white;
+                                                                                                                                                        font-family: Arial;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .btnn {
+                                                                                                                                                        width: 240px;
+                                                                                                                                                        height: 40px;
+                                                                                                                                                        background: orange;
+                                                                                                                                                        border: none;
+                                                                                                                                                        margin-top: 30px;
+                                                                                                                                                        font-size: 18px;
+                                                                                                                                                        border-radius: 10px;
+                                                                                                                                                        cursor: pointer;
+                                                                                                                                                        color: white;
+                                                                                                                                                        transition: 0.3s ease;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .btnn:hover {
+                                                                                                                                                        background: white;
+                                                                                                                                                        color: orange;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .btnn a {
+                                                                                                                                                        text text-decoration: none;
+                                                                                                                                                        color: black;
+                                                                                                                                                        font-weight: bold;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .form .link {
+                                                                                                                                                        font-family: Arial;
+                                                                                                                                                        font-size: 17px;
+                                                                                                                                                        padding-top: 20px;
+                                                                                                                                                        text-align: center;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .form .link a {
+                                                                                                                                                        text-decoration: none;
+                                                                                                                                                        color: orange;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .liw {
+                                                                                                                                                        padding-top: 15px;
+                                                                                                                                                        padding-bottom: 10px;
+                                                                                                                                                        text-align: center;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .icons a {
+                                                                                                                                                        text-decoration: none;
+                                                                                                                                                        color: white;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .icons ion-icon {
+                                                                                                                                                        color: white;
+                                                                                                                                                        font-size: 30px;
+                                                                                                                                                        padding-left: 14px;
+                                                                                                                                                        padding-top: 5px;
+                                                                                                                                                        text-align: center;
+                                                                                                                                                        transition: 0.3s ease;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .icons ion-icon:hover {
+                                                                                                                                                        color: orange;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .categories {
+                                                                                                                                                        margin: 70px 0;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .col-3 {
+                                                                                                                                                        flex-basis: 30%;
+                                                                                                                                                        min-width: 250px;
+                                                                                                                                                        margin-bottom: 30px;
+                                                                                                                                                        display: inline-block;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .col-3 img {
+                                                                                                                                                        width: 100%;
+                                                                                                                                                        align-items: center;
+                                                                                                                                                        padding-left: 25px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .small-container {
+                                                                                                                                                        max-width: 1080px;
+                                                                                                                                                        margin: auto;
+                                                                                                                                                        padding-left: 25px;
+                                                                                                                                                        padding-right: 25px;
+                                                                                                                                                        text-align: center;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .col-4 {
+                                                                                                                                                        flex-basis: 25px;
+                                                                                                                                                        padding: 10px;
+                                                                                                                                                        min-width: 200px;
+                                                                                                                                                        margin-bottom: 50px;
+                                                                                                                                                        display: inline-block;
+                                                                                                                                                        transform: transform 0.5s;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .col-4 img {
+                                                                                                                                                        width: 100%;
+                                                                                                                                                        display: inline-block;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .tittle {
+                                                                                                                                                        text-align: center;
+                                                                                                                                                        margin: 0 auto 80px;
+                                                                                                                                                        position: relative;
+                                                                                                                                                        line-height: 60px;
+                                                                                                                                                        color: black;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .tittle::after {
+                                                                                                                                                        content: '';
+                                                                                                                                                        background: orange;
+                                                                                                                                                        width: 80px;
+                                                                                                                                                        height: 5px;
+                                                                                                                                                        border-radius: 5px;
+                                                                                                                                                        position: absolute;
+                                                                                                                                                        bottom: 0;
+                                                                                                                                                        left: 50%;
+                                                                                                                                                        transform: translateX(-50%);
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    h4 {
+                                                                                                                                                        color: black;
+                                                                                                                                                        font-weight: normal;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .col-4 p {
+                                                                                                                                                        font-size: 14px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .rating .fa {
+                                                                                                                                                        color: orange;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .col-4:hover {
+                                                                                                                                                        transform: translateY(-5px);
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .offer {
+                                                                                                                                                        background: radial-gradient(#fff, #ffd6d6);
+                                                                                                                                                        margin-top: 80px;
+                                                                                                                                                        padding: 30px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .col-2 .offer-img {
+                                                                                                                                                        padding: 50px;
+                                                                                                                                                        text-align: top right;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    small {
+                                                                                                                                                        color: black;
+                                                                                                                                                        font-family: Arial, Helvetica, sans-serif;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .testimonial {
+                                                                                                                                                        padding-top: 100px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .testimonial .col-3 {
+                                                                                                                                                        text-align: center;
+                                                                                                                                                        font-size: 10px;
+                                                                                                                                                        display: inline-block;
+                                                                                                                                                        padding: auto;
+                                                                                                                                                        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1);
+                                                                                                                                                        cursor: pointer;
+                                                                                                                                                        transition: transfor 0.5s;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .testimonial .col-3 img {
+                                                                                                                                                        width: 50px;
+                                                                                                                                                        margin-top: 20px;
+                                                                                                                                                        border-radius: 50%;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .testimonial .col-3:hover {
+                                                                                                                                                        transform: translateY(-10px);
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .fa.fa-quote-left {
+                                                                                                                                                        font-size: 34px;
+                                                                                                                                                        color: orange;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .col-3:p {
+                                                                                                                                                        font-size: 12px;
+                                                                                                                                                        margin: 12px 0;
+                                                                                                                                                        color: black;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .testimonial .col-3 h3 {
+                                                                                                                                                        font-weight: 600;
+                                                                                                                                                        color: black;
+                                                                                                                                                        font-size: 16px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .brands {
+                                                                                                                                                        margin: 50px;
+                                                                                                                                                        display: inline-block;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .col-5 {
+                                                                                                                                                        width: 110px;
+                                                                                                                                                        display: inline-block;
+                                                                                                                                                        transition: 300ms;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .col-5 img {
+                                                                                                                                                        width: 50px;
+                                                                                                                                                        height: 50px;
+                                                                                                                                                        text-align: center;
+                                                                                                                                                        position: absolute\;
                                                                                                                                                         cursor: pointer;
                                                                                                                                                         filter: brightness(100%);
                                                                                                                                                         display: inline-block;
                                                                                                                                                         box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.637);
                                                                                                                                                         transition: 0.3s ease;
                                                                                                                                                     }
+                                                                                                                                                    
                                                                                                                                                     .col-5 img:hover {
                                                                                                                                                         transform: scale(1.1);
                                                                                                                                                         box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.829);
                                                                                                                                                         transition: 300ms ease-in;
                                                                                                                                                     }
+                                                                                                                                                    
+                                                                                                                                                    .footer * {
+                                                                                                                                                        margin: 0;
+                                                                                                                                                        padding: 0;
+                                                                                                                                                        box-sizing: border-box;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer {
+                                                                                                                                                        background: black;
+                                                                                                                                                        padding: 70px 0;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer ul {
+                                                                                                                                                        list-style: none;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer .row {
+                                                                                                                                                        display: flex;
+                                                                                                                                                        flex-wrap: wrap;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer-col {
+                                                                                                                                                        width: 25%;
+                                                                                                                                                        padding: 0 15px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer-col h4 {
+                                                                                                                                                        font-size: 18px;
+                                                                                                                                                        color: white;
+                                                                                                                                                        text-transform: capitalize;
+                                                                                                                                                        margin-bottom: 30px;
+                                                                                                                                                        font-weight: 500;
+                                                                                                                                                        position: relative;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer-col h4::before {
+                                                                                                                                                        content: '';
+                                                                                                                                                        position: absolute;
+                                                                                                                                                        left: 0;
+                                                                                                                                                        bottom: -10px;
+                                                                                                                                                        background-color: orange;
+                                                                                                                                                        height: 2px;
+                                                                                                                                                        box-sizing: border-box;
+                                                                                                                                                        width: 50px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer-col ul li:not(:last-child) {
+                                                                                                                                                        margin-bottom: 10px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer-col ul li a {
+                                                                                                                                                        font-size: 16px;
+                                                                                                                                                        text-transform: capitalize;
+                                                                                                                                                        color: #ffffff;
+                                                                                                                                                        text-decoration: none;
+                                                                                                                                                        font-weight: 300;
+                                                                                                                                                        color: #bbbbbb;
+                                                                                                                                                        display: block;
+                                                                                                                                                        transition: all 0.3s ease;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer-col ul li a:hover {
+                                                                                                                                                        color: orange;
+                                                                                                                                                        padding-left: 8px;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer-col .social-links {
+                                                                                                                                                        display: inline-block;
+                                                                                                                                                        height: 80px;
+                                                                                                                                                        width: 80px;
+                                                                                                                                                        margin-right: 10px;
+                                                                                                                                                        margin-top: auto;
+                                                                                                                                                        margin-bottom: 10px;
+                                                                                                                                                        text-align: center;
+                                                                                                                                                        line-height: 40px;
+                                                                                                                                                        border-radius: 50%;
+                                                                                                                                                        color: white;
+                                                                                                                                                        transition: all 0.3s ease;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .footer-col .social-links a:hover {
+                                                                                                                                                        color: black;
+                                                                                                                                                        background: orange;
+                                                                                                                                                        cursor: pointer;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .copyright {
+                                                                                                                                                        text-align: center;
+                                                                                                                                                        color: white;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    .menu-icon {
+                                                                                                                                                        width: 28px;
+                                                                                                                                                        margin-left: 120px;
+                                                                                                                                                        display: none;
+                                                                                                                                                    }
+                                                                                                                                                    
+                                                                                                                                                    @media only screen and (max-width:500px) {
+                                                                                                                                                        .menu ul {
+                                                                                                                                                            background: black;
+                                                                                                                                                            text-align: left;
+                                                                                                                                                            display: inline-block;
+                                                                                                                                                            position: absolute;
+                                                                                                                                                            top: 70px;
+                                                                                                                                                            left: 0;
+                                                                                                                                                            width: 100px;
+                                                                                                                                                            overflow: hidden;
+                                                                                                                                                            transition: max-height 0.5;
+                                                                                                                                                            margin-left: 400px;
+                                                                                                                                                            margin-top: 1px;
+                                                                                                                                                        }
+                                                                                                                                                        .menu-icon {
+                                                                                                                                                            display: block;
+                                                                                                                                                            margin-left: 100px;
+                                                                                                                                                            margin-top: 20px;
+                                                                                                                                                            cursor: pointer;
+                                                                                                                                                        }
+                                                                                                                                                        .menu ul li {
+                                                                                                                                                            font-size: 10px;
+                                                                                                                                                            margin-left: 4px;
+                                                                                                                                                            margin-top: 10px;
+                                                                                                                                                            margin-bottom: 10px;
+                                                                                                                                                        }
+                                                                                                                                                        .menu ul li a {
+                                                                                                                                                            color: #fff;
+                                                                                                                                                            font-size: 10px;
+                                                                                                                                                            padding-top: 1px;
+                                                                                                                                                            transition: 0.3s ease-in;
+                                                                                                                                                        }
+                                                                                                                                                        .menu ul li a:hover {
+                                                                                                                                                            color: orange;
+                                                                                                                                                        }
+                                                                                                                                                        .content .par {
+                                                                                                                                                            padding-left: 20px;
+                                                                                                                                                            padding-bottom: 25px;
+                                                                                                                                                            padding-top: 30px;
+                                                                                                                                                            font-family: Arial;
+                                                                                                                                                            letter-spacing: 1px;
+                                                                                                                                                            line-height: 30px;
+                                                                                                                                                        }
+                                                                                                                                                        .content h1 {
+                                                                                                                                                            font-family: 'Times New Roman';
+                                                                                                                                                            font-size: 20px;
+                                                                                                                                                            padding-left: 20px;
+                                                                                                                                                            margin-top: 75px;
+                                                                                                                                                            letter-spacing: 1px;
+                                                                                                                                                        }
+                                                                                                                                                        .content span {
+                                                                                                                                                            color: orange;
+                                                                                                                                                            font-size: 30px;
+                                                                                                                                                        }
+                                                                                                                                                        .logo {
+                                                                                                                                                            color: orange;
+                                                                                                                                                            font-size: 20px;
+                                                                                                                                                            font-family: Arial;
+                                                                                                                                                            padding-left: 5px;
+                                                                                                                                                            float: left;
+                                                                                                                                                            padding-top: 10px;
+                                                                                                                                                        }
+                                                                                                                                                        .col-5 img {
+                                                                                                                                                            width: 30px;
+                                                                                                                                                            height: 30px;
+                                                                                                                                                            text-align: center;
+                                                                                                                                                            cursor: pointer;
+                                                                                                                                                            filter: brightness(100%);
+                                                                                                                                                            display: inline-block;
+                                                                                                                                                            box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.637);
+                                                                                                                                                            transition: 0.3s ease;
+                                                                                                                                                        }
+                                                                                                                                                        .col-5 img:hover {
+                                                                                                                                                            transform: scale(1.1);
+                                                                                                                                                            box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.829);
+                                                                                                                                                            transition: 300ms ease-in;
+                                                                                                                                                        }

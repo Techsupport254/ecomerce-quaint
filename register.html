@@ -17,19 +17,29 @@
                 <button type="button" onclick="login()" class="toggle-btn">Login</button>
                 <button type="button" onclick="register()" class="toggle-btn">Register</button>
             </div>
-            <form id="login" class="input-group-login">
+            <form action="https://sheetdb.io/api/v1/2gf1mf6pgzbr5" method="get" id="login" class="input-group-login">
                 <input type="text" class="input-field" placeholder="Email" name="data[email]" required><br>
                 <input type="password" class="input-field" placeholder="Enter Password" name="data[password]" id="pass" required><br>
                 <input type="checkbox" class="check-box"><span>Remember Password</span><br>
-                <button type="submit" class="submit-btn">Login</button>
+                <button type="button" class="submit-btn" value="Login" onClick="login(this.parentNode);">Login</button>
             </form>
+            <div id="msg"></div>
+            <script>
+                function login(obj) {
+                    google.script.run
+                        .withSuccessHandler((obj) => {
+                            (obj.loggedin == true) ? document.getElementById('msg').innerHTML = "Your are logged in": document.getElementById('msg').innerHTML = "Go away";
+                        }).login(obj);
+                }
+                console.log("My Code");
+            </script>
             <form action="https://sheetdb.io/api/v1/2gf1mf6pgzbr5" method="post" id="register" class="input-group-register">
                 <input type="text" class="input-field" placeholder="First Name" name="data[firstname]" required>
                 <input type="text" class="input-field" placeholder="Last Name" name="data[lastname]" required><br>
                 <input type="email" class="input-field" placeholder="Email" name="data[email]" required><br>
                 <input type="password" class="input-field" placeholder="Enter Password" name="data[password]" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
                     id="pass" required>
-                <input type="password" class="input-field" placeholder="Confirm Password" name="data[confirm password]" pattern="confirm password ==password" id="conpass" required><br>
+                <input type="password" class="input-field" placeholder="Confirm Password" name="data[confirm password]" id="conpass" required><br>
                 <input type="checkbox" onclick="myFunction()">Show Password<br>
                 <input type="checkbox" class="check-box"><span>I agree to the terms and coditions <a href="#">read more</a></span><br>
                 <button type="submit" class="submit-btn">Register</button>
@@ -71,6 +81,15 @@
                 modal.style.display = "none";
             }
         }
+    </script>
+    <script>
+        function login(obj) {
+            google.script.run
+                .withSuccessHandler((obj) => {
+                    (obj.loggedin == true) ? document.getElementById('msg').innerHTML = "Your are logged in": document.getElementById('msg').innerHTML = "Go away";
+                }).login(obj);
+        }
+        console.log("My Code");
     </script>
 
     <script>
